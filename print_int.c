@@ -23,7 +23,7 @@ int count = 0;
 int number1 = number;
 if (number <= 0)
 count += 1;
-while (_abs(number1 != 0)
+while (_abs(number1 != 0))
 {
 number1 = number1 / 10;
 count++;
@@ -38,7 +38,7 @@ return (count);
  */
 int integer(int number)
 {
-unsignedint value;
+unsigned int value;
 int count;
 count = contadordigit(number);
 if (number < 0)
