@@ -11,7 +11,6 @@ return (-1 * number);
 else
 return (number);
 }
-
 /**
  * contadordigit - counts the digits.
  * @number: input integer
@@ -29,8 +28,7 @@ number1 = number1 / 10;
 count++;
 }
 return (count);
-}
-       
+}   
 /**
  * integer - a function that prints an integer.
  * @number: input integer
@@ -53,7 +51,6 @@ integer(value / 10);
 _putchar(value % 10 + '0');
 return (count);
 }
-
 /**
  * printint - prints a number
  * @format: format to print number
