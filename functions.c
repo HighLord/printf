@@ -22,7 +22,7 @@ struct_type selector[] = {
 {"%x", printhex},
 {"%X", printHEX},
 {"%o", printocta},
-{NULL, NULL}
+{NULL, NULL},
 };
 
 if (format[1] == ' ' || format[1] == '\0')
