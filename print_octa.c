@@ -35,5 +35,5 @@ _putchar(octa[i]);
 contame++;
 }
 free(octa);
-return (contame);
+return(contame);
 }
