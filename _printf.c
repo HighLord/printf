@@ -20,11 +20,11 @@ while (format[0])
 if (format[0] == '%')
 {
 struct_type = driver(format);
-if (structype)
+if (struct_type)
 {
 q[0] = '%';
 q[1] = format[1];
-written += structype(q, pa);
+written += struct_type(q, pa);
 }
 else if (format[1] != '\0')
 {
