@@ -15,5 +15,5 @@ _putchar(*string);
 string++;
 str++;
 }
-return (contador);
+return (str);
 }
