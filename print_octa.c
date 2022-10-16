@@ -15,7 +15,7 @@ int i, i2 = 0, contame = 0;
 
 if (num == 0)
 return (_putchar('0'));
-for ( hex = num; hex != 0; i2++)
+for (hex = num; hex != 0; i2++)
 {
 hex = hex / 8;
 }
@@ -35,5 +35,5 @@ _putchar(octa[i]);
 contame++;
 }
 free(octa);
-return(contame);
+return (contame);
 }
