@@ -47,7 +47,7 @@ struct fomat
 
 /**
  *
- ** typedef struct fomat fma - Struct op
+ ** typedef struct fmt fma - Struct op
  *
  **
  *
@@ -57,9 +57,9 @@ struct fomat
  *
  **/
 
-typedef struct fomat fma;
-	int _printf(const char *fmt, ...);
-	int handle_print(const char *fma, int *i,
+typedef struct fmt fma;
+	int _printf(const char *format, ...);
+	int handle_print(const char *fmt, int *i,
 	va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
