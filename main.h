@@ -42,7 +42,7 @@ struct fomat
 
 {
 	char fmt;
-	int (*fn)(va_list, char[], int, int, int, int);
+	int (*fa)(va_list, char[], int, int, int, int);
 };
 
 /**
@@ -58,8 +58,8 @@ struct fomat
  **/
 
 typedef struct fomat fma;
-	int _printf(const char *format, ...);
-	int handle_print(const char *fmt, int *i,
+	int _printf(const char *fmt, ...);
+	int handle_print(const char *fma, int *i,
 	va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
