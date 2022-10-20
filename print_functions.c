@@ -72,6 +72,7 @@ int print_string(va_list types, char buffer[],
 
 	return (write(1, str, length));
 }
+
 /**
  * print_percent - Prints a percent sign
  * @types: Lista of arguments
@@ -93,7 +94,6 @@ int print_percent(va_list types, char buffer[],
 	UNUSED(size);
 	return (write(1, "%%", 1));
 }
-
 /**
  * print_int - Print int
  * @types: Lista of arguments
